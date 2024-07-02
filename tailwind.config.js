@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
+        poppins: ['Poppins', 'sans-serif'],
       },
       boxShadow: {
         custom: "0px 39px 100px 0px #193E6C1F",
