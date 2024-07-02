@@ -553,3 +553,21 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[786px\] {
+  height: 786px;
+}
+
+.bg-\[red\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F2F7FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 247 255 / var(--tw-bg-opacity));
+}
