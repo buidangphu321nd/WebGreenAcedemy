@@ -555,6 +555,9 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> NgocKhanh
 .absolute {
   position: absolute;
 }
@@ -563,6 +566,7 @@ video {
   position: relative;
 }
 
+<<<<<<< HEAD
 .right-\[100px\] {
   right: 100px;
 }
@@ -737,11 +741,16 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
+=======
+.flex {
+  display: flex;
+>>>>>>> NgocKhanh
 }
 
 .bg-\[\#094B72\] {
   --tw-bg-opacity: 1;
   background-color: rgb(9 75 114 / var(--tw-bg-opacity));
+<<<<<<< HEAD
 }
 
 .bg-\[\#E7F6FF\] {
@@ -954,3 +963,7 @@ video {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 >>>>>>> VanPhuc
 }
+=======
+}
+
+>>>>>>> NgocKhanh

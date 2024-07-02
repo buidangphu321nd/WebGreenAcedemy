@@ -1,8 +1,10 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
+<<<<<<< HEAD
 <<<<<<< HEAD
       fontFamily: {
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
@@ -17,8 +19,18 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         'plus-jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
 >>>>>>> VanPhuc
+=======
+      fontFamily: {
+        playfair: ['Playfair Display', 'serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        'plus-jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
+>>>>>>> NgocKhanh
       },
     },
   },
   plugins: [],
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> NgocKhanh

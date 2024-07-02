@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
   <meta charset="UTF-8"/>
   <title>Title</title>
   <link href="./styles.css" rel="stylesheet"/>
@@ -16,6 +17,119 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    .bg-blue {
+      background-color: #094B72;
+      padding: 20px;
+    }
+    .playfair-display-bold {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      margin: 0 auto;
+      color: white; /* Updated to white color */
+    }
+    .achievement-text {
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      color: #FFFFFF;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    .stat-item {
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 64px;
+    }
+    .stat-label {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .testimonial-container {
+      text-align: center;
+      padding: 50px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+    .testimonial-heading {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      background: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    .testimonial {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .testimonial-card {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      width: 45%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+    .testimonial-card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .testimonial-card p {
+      font-size: 16px;
+      color: #333;
+    }
+    .author-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .author {
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      width: 20%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+    .author img {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+    .author .name {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .author .position {
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
 <!--header-->
@@ -163,6 +277,51 @@
   </div>
 </div>
 
+<div class="bg-blue">
+  <div class="playfair-display-bold">Some count that matters</div>
+  <div class="achievement-text">Our achievement in the journey depicted in numbers</div>
+  <div class="stats-container">
+    <div class="stat-item">
+      <div class="stat-number">30</div>
+      <div class="stat-label">Clients</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">300+</div>
+      <div class="stat-label">Taken business legalities</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">8</div>
+      <div class="stat-label">Years of Journey</div>
+    </div>
+  </div>
+</div>
+
+<div class="testimonial-container">
+  <div class="testimonial-heading">Clients Testimonial</div>
+  <div class="testimonial">
+    <div class="testimonial-card">
+      <h2>Incredible Experience</h2>
+      <p>We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly.</p>
+    </div>
+    <div class="testimonial-card">
+      <h2>Dependable, Responsive, Professional Partner</h2>
+      <p>Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations.</p>
+    </div>
+  </div>
+  <div class="author-container">
+    <div class="author">
+      <img src="./img/Photo.png" alt="Anya Tailor Joy">
+      <div class="name">Anya Tailor Joy</div>
+      <div class="position">CEO, SF Industries</div>
+    </div>
+    <div class="author">
+      <img src="./img/Photo.png" alt="Sri Alam">
+      <div class="name">Sri Alam</div>
+      <div class="position">CEO, Membagongkan GROUP</div>
+    </div>
+  </div>
+</div>
+
 
 <!--module5-->
 <div class="grid grid-rows-2 grid-flow-col">
@@ -190,6 +349,8 @@
   </div>
 </div>
 </div>
+
+
 
 <!--footer-->
 <div class="footer">
@@ -250,5 +411,8 @@
   </div>
 </div>
 </div>
+
+
+
 </body>
 </html>
