@@ -554,20 +554,20 @@ video {
   --tw-contain-style:  ;
 }
 
-.h-\[\] {
-  height: ;
+.absolute {
+  position: absolute;
 }
 
-.h-\[786px\] {
-  height: 786px;
+.relative {
+  position: relative;
 }
 
-.bg-\[red\] {
+.flex {
+  display: flex;
+}
+
+.bg-\[\#094B72\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(9 75 114 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#F2F7FF\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 247 255 / var(--tw-bg-opacity));
-}
