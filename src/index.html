@@ -9,8 +9,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styleKhai.css">
   <script src="https://kit.fontawesome.com/83a0de21b9.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+<!--header-->
 <div class="header">
   <div class="logo">
     <div class="L">
@@ -32,59 +40,64 @@
     <i class="fa-solid fa-magnifying-glass"></i>
   </div>
 </div>
-<div class="px-[160px] relative">
-  <div
-    class="flex text-xl bg-[#E7F6FF] w-[434px] p-[6px] rounded-3xl font-jakarta"
-  >
+<!--module2-->
+<div>
+  <div class="px-[160px] relative">
     <div
-      class="text-sm text-[white] bg-[#094B72] px-4 rounded-3xl mr-[9px]"
+      class="flex text-xl bg-[#E7F6FF] w-[434px] p-[6px] rounded-3xl font-jakarta"
     >
-      New
+      <div
+        class="text-sm text-[white] bg-[#094B72] px-4 rounded-3xl mr-[9px]"
+      >
+        New
+      </div>
+      <div class="text-sm text-[#193E6C]">
+        Stay connected to the upcoming & Recent jobs
+      </div>
     </div>
-    <div class="text-sm text-[#193E6C]">
-      Stay connected to the upcoming & Recent jobs
+    <div
+      class="text-[90px] text-[#094B72] w-[750px] mt-4 mb-[46px] font-bold font-playfair"
+    >
+      Your Solution Legal Consultacy
+    </div>
+    <div class="w-[550px] mb-[42px] font-jakarta text-[24px]">
+      We are here to help you take care of your legality with the best service
+      especially for you.
+    </div>
+    <button
+      class="bg-[#094B72] text-[white] px-9 py-[29px] rounded-lg mb-[115px] text-base font-jakarta"
+    >
+      GET STARTED
+    </button>
+    <div class="text-[#8B8C8C] text-[22px] font-jakarta">
+      Trusted by 10+ companies in indonesia
+      <div class="flex mt-[34px]">
+        <div class="mr-8">
+          <img src="./img/Airbnb Logo.svg" class="mb-[33px]"/>
+          <img src="./img/Microsoft Logo.svg"/>
+        </div>
+        <div class="mt-1">
+          <img src="./img/Layer 2.svg" class="mb-[33px]"/>
+          <img src="./img/Google Logo.svg"/>
+        </div>
+      </div>
     </div>
   </div>
+  <img
+    src="./img/Hero Image.svg"
+    class="absolute right-[100px] top-[-80px]"
+  />
   <div
-    class="text-[90px] text-[#094B72] w-[750px] mt-4 mb-[46px] font-bold font-playfair"
+    class="absolute right-[310px] top-[800px] bg-[white] text-[black] py-5 px-[124px] shadow-custom flex flex-col items-center"
   >
-    Your Solution Legal Consultacy
-  </div>
-  <div class="w-[550px] mb-[42px] font-jakarta text-[24px]">
-    We are here to help you take care of your legality with the best service
-    especially for you.
-  </div>
-  <button
-    class="bg-[#094B72] text-[white] px-9 py-[29px] rounded-lg mb-[115px] text-base font-jakarta"
-  >
-    GET STARTED
-  </button>
-  <div class="text-[#8B8C8C] text-[22px] font-jakarta">
-    Trusted by 10+ companies in indonesia
-    <div class="flex mt-[34px]">
-      <div class="mr-8">
-        <img src="./img/Airbnb Logo.svg" class="mb-[33px]"/>
-        <img src="./img/Microsoft Logo.svg"/>
-      </div>
-      <div class="mt-1">
-        <img src="./img/Layer 2.svg" class="mb-[33px]"/>
-        <img src="./img/Google Logo.svg"/>
-      </div>
+    <div class="text-[#33475B] font-bold mb-[2px] font-jakarta text-[24px]">
+      Tiara Andini
     </div>
+    <div class="text-[#87898C]">-Lawyer</div>
   </div>
 </div>
-<img
-  src="./img/Hero Image.svg"
-  class="absolute right-[100px] top-[-80px]"
-/>
-<div
-  class="absolute right-[310px] top-[800px] bg-[white] text-[black] py-5 px-[124px] shadow-custom flex flex-col items-center"
->
-  <div class="text-[#33475B] font-bold mb-[2px] font-jakarta text-[24px]">
-    Tiara Andini
-  </div>
-  <div class="text-[#87898C]">-Lawyer</div>
-</div>
+
+<!--module3-->
 <div class="bg-[#F2F7FF] mh-[786]">
   <div class="flex justify-center items-center h-screen">
     <div class=" w-[419px]">
@@ -149,63 +162,93 @@
     </div>
   </div>
 </div>
-    <div class="footer">
-        <div class="foot1">
-            <div class="foot1_logo">
-                <div class="L1">
-                    L
-                </div>
-                <div class="namelogo1">
-                    Lawliet
-                </div>
-            </div>
-            <div class="foot1_menu">
-                <div class="foot_menu1">
-                   <div>Product</div>
-                    <ul>
-                        <li>Overview</li>
-                        <li>Features</li>
-                        <li>Tutorials</li>
-                        <li>Pricing</li>
-                        <li>Releases</li>
-                    </ul>
-                </div>
-                <div class="foot_menu2">
-                    <div>Company</div>
-                    <ul>
-                        <li>About</li>
-                        <li>Press</li>
-                        <li>Careers</li>
-                        <li>Contact</li>
-                        <li>Partners</li>
-                    </ul>
-                </div>
-                <div class="foot_menu3">
-                    <div>Support</div>
-                    <ul>
-                        <li>Help Center</li>
-                        <li>Terms of service</li>
-                        <li>Legal</li>
-                        <li>Privacy Policy</li>
-                        <li>Status</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="foot2">
-            <div class="foot2_last1">
-                © 2021 Lawliet. All rights reserved
-            </div>
-            <div class="foot2_contact">
-                <ul style="color: white; ">
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-facebook-messenger"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
-                    <li><i class="fa-brands fa-youtube"></i></li>
-                </ul>
-            </div>
-        </div>
+
+
+<!--module5-->
+<div class="grid grid-rows-2 grid-flow-col">
+  <div class="row-span-3 mr-[31] ml-[165px]">
+    <div class="my-[36.72px]">
+      <div class="my-[14.85px]">
+        <p class="text-[48px] font-playfair font-serif">Complex Question?</p>
+      </div>
+      <div class=" mr-80 ">
+        <p class=" text-[24px] text-left font-poppins">Request for a personalized budget for your legal problem. We will
+          send you a coupe options in 24 hours. You can have free consult , if a our first customer</p>
+      </div>
+      <div class="w-[219px] h-[64px]">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-6 rounded w-[219px] h-[64px] text-[22px]">
+          <i class="fa-solid fa-phone mr-[17.44px]"></i>Call now
+        </button>
+      </div>
     </div>
+  </div>
+  <div class="row-span-3 col-span-2">
+    <div class="my-[41px] mr-[92.6px] ">
+      <img src="../images/picture 1.png" class="rounded-bl-[40px]">
+    </div>
+  </div>
+</div>
+</div>
+
+<!--footer-->
+<div class="footer">
+  <div class="foot1">
+    <div class="foot1_logo">
+      <div class="L1">
+        L
+      </div>
+      <div class="namelogo1">
+        Lawliet
+      </div>
+    </div>
+    <div class="foot1_menu">
+      <div class="foot_menu1">
+        <div>Product</div>
+        <ul>
+          <li>Overview</li>
+          <li>Features</li>
+          <li>Tutorials</li>
+          <li>Pricing</li>
+          <li>Releases</li>
+        </ul>
+      </div>
+      <div class="foot_menu2">
+        <div>Company</div>
+        <ul>
+          <li>About</li>
+          <li>Press</li>
+          <li>Careers</li>
+          <li>Contact</li>
+          <li>Partners</li>
+        </ul>
+      </div>
+      <div class="foot_menu3">
+        <div>Support</div>
+        <ul>
+          <li>Help Center</li>
+          <li>Terms of service</li>
+          <li>Legal</li>
+          <li>Privacy Policy</li>
+          <li>Status</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot2">
+    <div class="foot2_last1">
+      © 2021 Lawliet. All rights reserved
+    </div>
+    <div class="foot2_contact">
+      <ul style="color: white; ">
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-facebook-messenger"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+  </div>
+</div>
 </div>
 </body>
 </html>

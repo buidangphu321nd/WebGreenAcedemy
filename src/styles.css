@@ -554,6 +554,7 @@ video {
   --tw-contain-style:  ;
 }
 
+<<<<<<< HEAD
 .absolute {
   position: absolute;
 }
@@ -628,12 +629,60 @@ video {
 
 .flex {
   display: flex;
+=======
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
+.my-\[14\.85px\] {
+  margin-top: 14.85px;
+  margin-bottom: 14.85px;
+}
+
+.my-\[36\.72px\] {
+  margin-top: 36.72px;
+  margin-bottom: 36.72px;
+}
+
+.my-\[41px\] {
+  margin-top: 41px;
+  margin-bottom: 41px;
+}
+
+.ml-\[165px\] {
+  margin-left: 165px;
+}
+
+.mr-80 {
+  margin-right: 20rem;
+}
+
+.mr-\[17\.44px\] {
+  margin-right: 17.44px;
+}
+
+.mr-\[31\] {
+  margin-right: 31;
+}
+
+.mr-\[92\.6px\] {
+  margin-right: 92.6px;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+>>>>>>> VanPhuc
 }
 
 .grid {
   display: grid;
 }
 
+<<<<<<< HEAD
 .h-\[256px\] {
   height: 256px;
 }
@@ -721,6 +770,35 @@ video {
 
 .p-\[6px\] {
   padding: 6px;
+=======
+.h-\[64px\] {
+  height: 64px;
+}
+
+.w-\[219px\] {
+  width: 219px;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-bl-\[40px\] {
+  border-bottom-left-radius: 40px;
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+>>>>>>> VanPhuc
 }
 
 .px-4 {
@@ -728,6 +806,7 @@ video {
   padding-right: 1rem;
 }
 
+<<<<<<< HEAD
 .px-9 {
   padding-left: 2.25rem;
   padding-right: 2.25rem;
@@ -755,6 +834,15 @@ video {
 
 .font-jakarta {
   font-family: Plus Jakarta Sans, sans-serif;
+=======
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text-left {
+  text-align: left;
+>>>>>>> VanPhuc
 }
 
 .font-playfair {
@@ -765,12 +853,17 @@ video {
   font-family: Poppins, sans-serif;
 }
 
+<<<<<<< HEAD
 .text-\[14px\] {
   font-size: 14px;
 }
 
 .text-\[20px\] {
   font-size: 20px;
+=======
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+>>>>>>> VanPhuc
 }
 
 .text-\[22px\] {
@@ -785,6 +878,7 @@ video {
   font-size: 48px;
 }
 
+<<<<<<< HEAD
 .text-\[90px\] {
   font-size: 90px;
 }
@@ -804,10 +898,13 @@ video {
   line-height: 1.75rem;
 }
 
+=======
+>>>>>>> VanPhuc
 .font-bold {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .text-\[\#094B72\] {
   --tw-text-opacity: 1;
   color: rgb(9 75 114 / var(--tw-text-opacity));
@@ -839,12 +936,21 @@ video {
 }
 
 .text-\[white\] {
+=======
+.text-white {
+>>>>>>> VanPhuc
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .shadow-custom {
   --tw-shadow: 0px 39px 100px 0px #193E6C1F;
   --tw-shadow-colored: 0px 39px 100px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+=======
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+>>>>>>> VanPhuc
 }
