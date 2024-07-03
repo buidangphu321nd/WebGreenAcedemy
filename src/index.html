@@ -8,6 +8,8 @@
       src="https://kit.fontawesome.com/83a0de21b9.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -98,7 +100,7 @@
         </div>
 
         <div class="grid grid-cols-2 grid-rows-2 gap-8">
-          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg" data-aos="flip-up">
             <div>
               <img src="img/svg/Circle%20Layer.svg" class="w-37 h-37" />
             </div>
@@ -110,7 +112,7 @@
               activities are designed
             </p>
           </div>
-          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg" data-aos="flip-up">
             <div>
               <img src="img/svg/Rocket.svg" class="w-37 h-37" />
             </div>
@@ -122,7 +124,7 @@
               uncertainty and business uncertainty.
             </p>
           </div>
-          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg" data-aos="flip-up">
             <div>
               <img src="img/svg/Bag.svg" class="w-37 h-37" />
             </div>
@@ -134,7 +136,7 @@
               business activities.
             </p>
           </div>
-          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg" data-aos="flip-up">
             <div>
               <img src="img/svg/User%20Arrows.svg" class="w-37 h-37" />
             </div>
@@ -316,5 +318,11 @@
       </div>
     </div>
     <script src="./js/countAnimation.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+      });
+    </script>
   </body>
 </html>
