@@ -162,17 +162,21 @@
       </div>
       <div class="flex">
         <div class="flex flex-col items-center w-[255px]">
-          <div class="font-extrabold text-[48px]">30</div>
+          <div class="font-extrabold text-[48px]" id="clients-count">0</div>
           <div class="">Clients</div>
         </div>
         <div
           class="flex flex-col items-center px-[15px] border-l border-r w-[255px]"
         >
-          <div class="font-extrabold text-[48px]">300+</div>
+          <div class="flex">
+            <div class="font-extrabold text-[48px] " id="business-count">0</div>
+            <div class="font-extrabold text-[48px] ">+</div>
+          </div>
+
           <div class="">Taken business legalities</div>
         </div>
         <div class="flex flex-col items-center w-[255px]">
-          <div class="font-extrabold text-[48px]">8</div>
+          <div class="font-extrabold text-[48px]" id="years-count">0</div>
           <div class="">Years of Journey</div>
         </div>
       </div>
@@ -311,5 +315,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/countAnimation.js"></script>
   </body>
 </html>
