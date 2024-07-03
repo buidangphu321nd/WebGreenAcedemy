@@ -1,417 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <title>Title</title>
-  <link href="./styles.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styleKhai.css">
-  <script src="https://kit.fontawesome.com/83a0de21b9.js" crossorigin="anonymous"></script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
-    .bg-blue {
-      background-color: #094B72;
-      padding: 20px;
-    }
-    .playfair-display-bold {
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 64px;
-      letter-spacing: 0.5px;
-      text-align: center;
-      margin: 0 auto;
-      color: white; /* Updated to white color */
-    }
-    .achievement-text {
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 0.5px;
-      text-align: center;
-      color: #FFFFFF;
-      margin: 0 auto;
-      margin-bottom: 20px;
-    }
-    .stats-container {
-      display: flex;
-      justify-content: space-around;
-      color: #FFFFFF;
-      margin-bottom: 20px;
-    }
-    .stat-item {
-      text-align: center;
-    }
-    .stat-number {
-      font-size: 48px;
-      font-weight: bold;
-      line-height: 64px;
-    }
-    .stat-label {
-      font-size: 18px;
-      line-height: 24px;
-    }
-    .testimonial-container {
-      text-align: center;
-      padding: 50px;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin-top: 20px;
-    }
-    .testimonial-heading {
-      font-family: 'Playfair Display', serif;
-      font-size: 48px;
-      font-weight: 700;
-      line-height: 64px;
-      letter-spacing: 0.5px;
-      text-align: center;
-      background: #FFFFFF;
-      margin-bottom: 20px;
-    }
-    .testimonial {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 20px;
-    }
-    .testimonial-card {
-      background-color: #f9f9f9;
-      padding: 20px;
-      border-radius: 5px;
-      width: 45%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    }
-    .testimonial-card h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    .testimonial-card p {
-      font-size: 16px;
-      color: #333;
-    }
-    .author-container {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 20px;
-    }
-    .author {
-      text-align: center;
-      background-color: #f9f9f9;
-      padding: 20px;
-      border-radius: 5px;
-      width: 20%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    }
-    .author img {
-      border-radius: 50%;
-      width: 80px;
-      height: 80px;
-      margin-bottom: 10px;
-    }
-    .author .name {
-      font-size: 14px;
-      font-weight: bold;
-    }
-    .author .position {
-      font-size: 12px;
-      color: #777;
-    }
-  </style>
-</head>
-<body>
-<!--header-->
-<div class="header">
-  <div class="logo">
-    <div class="L">
-      L
-    </div>
-    <div class="namelogo">
-      Lawliet
-    </div>
-  </div>
-  <div class="menu">
-    <ul>
-      <li>CONTACT</li>
-      <li>TESTIMONINALS</li>
-      <li>ABOUT</li>
-      <li>TERMS</li>
-    </ul>
-  </div>
-  <div>
-    <i class="fa-solid fa-magnifying-glass"></i>
-  </div>
-</div>
-<!--module2-->
-<div>
-  <div class="px-[160px] relative">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/83a0de21b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--header-->
     <div
-      class="flex text-xl bg-[#E7F6FF] w-[434px] p-[6px] rounded-3xl font-jakarta"
+      class="flex mx-[165px] justify-between items-center h-[100px] mb-[94px]"
     >
+      <div class="flex items-center">
+        <div
+          class="bg-[#094B72] text-xl px-[16px] py-[7px] mr-[13px] rounded-full text-[white] font-bold"
+        >
+          L
+        </div>
+        <div class="font-bold text-xl">Lawliet</div>
+      </div>
+      <div class="flex items-center">
+        <ul class="flex gap-[56px] text-xs mr-[110px]">
+          <li>CONTACT</li>
+          <li>TESTIMONINALS</li>
+          <li>ABOUT</li>
+          <li>TERMS</li>
+        </ul>
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+
+    <!--module2-->
+    <div class="px-[160px] mb-[46px] relative">
+      <div class="flex text-xl bg-[#E7F6FF] w-[390px] p-[6px] rounded-3xl">
+        <div
+          class="text-sm text-[white] bg-[#094B72] px-4 rounded-3xl mr-[9px]"
+        >
+          New
+        </div>
+        <div class="text-sm text-[#193E6C]">
+          Stay connected to the upcoming & Recent jobs
+        </div>
+      </div>
       <div
-        class="text-sm text-[white] bg-[#094B72] px-4 rounded-3xl mr-[9px]"
+        class="text-[90px] text-[#094B72] w-[750px] mt-4 mb-[46px] font-bold"
       >
-        New
+        Your Solution Legal Consultacy
       </div>
-      <div class="text-sm text-[#193E6C]">
-        Stay connected to the upcoming & Recent jobs
+      <div class="w-[550px] mb-[42px] font-jakarta text-[24px]">
+        We are here to help you take care of your legality with the best service
+        especially for you.
+      </div>
+      <button
+        class="bg-[#094B72] text-[white] px-9 py-[29px] rounded-lg mb-[115px] text-base"
+      >
+        GET STARTED
+      </button>
+      <div class="text-[#8B8C8C] text-[22px] font-jakarta">
+        Trusted by 10+ companies in indonesia
+        <div class="flex mt-[34px]">
+          <div class="mr-8">
+            <img src="./img/Airbnb Logo.svg" class="mb-[33px]" />
+            <img src="./img/Microsoft Logo.svg" />
+          </div>
+          <div class="mt-1">
+            <img src="./img/Layer 2.svg" class="mb-[33px]" />
+            <img src="./img/Google Logo.svg" />
+          </div>
+        </div>
       </div>
     </div>
+    <img src="./img/Hero Image.svg" class="absolute right-[140px] top-[50px]" />
     <div
-      class="text-[90px] text-[#094B72] w-[750px] mt-4 mb-[46px] font-bold font-playfair"
+      class="absolute right-[350px] bottom-[-300px] bg-[white] text-[black] py-5 px-[124px] shadow-lg flex flex-col items-center rounded-[10px]"
     >
-      Your Solution Legal Consultacy
+      <div class="text-[#33475B] font-bold mb-[2px] font-jakarta text-[24px]">
+        Tiara Andini
+      </div>
+      <div class="text-[#87898C]">-Lawyer</div>
     </div>
-    <div class="w-[550px] mb-[42px] font-jakarta text-[24px]">
-      We are here to help you take care of your legality with the best service
-      especially for you.
+
+    <!--module3-->
+    <div class="bg-[#F2F7FF] px-[165px] py-[124px]">
+      <div class="flex justify-between items-center">
+        <div class="w-[400px]">
+          <p class="text-[48px] font-bold">Why do we help with legalization?</p>
+          <p class="text-[20px] text-[#8B8C8C] mt-8">
+            We are here for UMKM in Indonesia to carry out the legalization
+            process, which is sometimes complicated.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 grid-rows-2 gap-8">
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+            <div>
+              <img src="img/svg/Circle%20Layer.svg" class="w-37 h-37" />
+            </div>
+            <p class="text-[22px] font-playfair font-bold mt-4">
+              Enviromental Law
+            </p>
+            <p class="text-[14px] font-plus-jakarta text-[#8B8C8C] mt-4">
+              Environmental legal issues might occur since the planned business
+              activities are designed
+            </p>
+          </div>
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+            <div>
+              <img src="img/svg/Rocket.svg" class="w-37 h-37" />
+            </div>
+            <p class="text-[22px] font-playfair font-bold mt-4">
+              Information and Technology
+            </p>
+            <p class="text-[14px] font-plus-jakarta text-[#8B8C8C] mt-4">
+              IT not followed by the existing regulation which might cause legal
+              uncertainty and business uncertainty.
+            </p>
+          </div>
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+            <div>
+              <img src="img/svg/Bag.svg" class="w-37 h-37" />
+            </div>
+            <p class="text-[22px] font-playfair font-bold mt-4">
+              Corporate and Commercial
+            </p>
+            <p class="text-[14px] font-plus-jakarta text-[#8B8C8C] mt-4">
+              We provide a complete range of services for the continuity of your
+              business activities.
+            </p>
+          </div>
+          <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
+            <div>
+              <img src="img/svg/User%20Arrows.svg" class="w-37 h-37" />
+            </div>
+            <p class="text-[22px] font-playfair font-bold mt-4">
+              Other Services
+            </p>
+            <p class="text-[14px] font-plus-jakarta text-[#8B8C8C] mt-4">
+              In dealing with disruptive economic and legal challenge, our firm
+              also provide various legal services.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <button
-      class="bg-[#094B72] text-[white] px-9 py-[29px] rounded-lg mb-[115px] text-base font-jakarta"
+
+    <!-- module4 -->
+    <div
+      class="flex flex-col justify-center items-center py-[54px] bg-[#094B72] text-[white]"
     >
-      GET STARTED
-    </button>
-    <div class="text-[#8B8C8C] text-[22px] font-jakarta">
-      Trusted by 10+ companies in indonesia
-      <div class="flex mt-[34px]">
-        <div class="mr-8">
-          <img src="./img/Airbnb Logo.svg" class="mb-[33px]"/>
-          <img src="./img/Microsoft Logo.svg"/>
+      <div class="mb-[48px] text-center">
+        <div class="font-black text-[48px] mb-2">Some count that matters</div>
+        <div class="text-[18px]">
+          Our achievement in the journey depicted in numbers
         </div>
-        <div class="mt-1">
-          <img src="./img/Layer 2.svg" class="mb-[33px]"/>
-          <img src="./img/Google Logo.svg"/>
+      </div>
+      <div class="flex">
+        <div class="flex flex-col items-center w-[255px]">
+          <div class="font-extrabold text-[48px]">30</div>
+          <div class="">Clients</div>
+        </div>
+        <div
+          class="flex flex-col items-center px-[15px] border-l border-r w-[255px]"
+        >
+          <div class="font-extrabold text-[48px]">300+</div>
+          <div class="">Taken business legalities</div>
+        </div>
+        <div class="flex flex-col items-center w-[255px]">
+          <div class="font-extrabold text-[48px]">8</div>
+          <div class="">Years of Journey</div>
         </div>
       </div>
     </div>
-  </div>
-  <img
-    src="./img/Hero Image.svg"
-    class="absolute right-[100px] top-[-80px]"
-  />
-  <div
-    class="absolute right-[310px] top-[800px] bg-[white] text-[black] py-5 px-[124px] shadow-custom flex flex-col items-center"
-  >
-    <div class="text-[#33475B] font-bold mb-[2px] font-jakarta text-[24px]">
-      Tiara Andini
-    </div>
-    <div class="text-[#87898C]">-Lawyer</div>
-  </div>
-</div>
 
-<!--module3-->
-<div class="bg-[#F2F7FF] mh-[786]">
-  <div class="flex justify-center items-center h-screen">
-    <div class=" w-[419px]">
-      <p class="text-[48px] font-playfair font-bold">
-        Why do we help with legalization?
-      </p>
-      <p class="text-[20px] font-poppins text-[#8B8C8C] mt-8">
-        We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes complicated.
-      </p>
-    </div>
-
-    <div class="grid grid-cols-2 gap-8 ml-16">
-      <div>
-        <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6">
-          <div>
-            <img src="img/svg/Circle%20Layer.svg" class="w-37 h-37">
+    <div class="bg-[#F2F7FF] px-[165px] pb-[50px]">
+      <div class="pt-[61px] font-bold text-[48px] text-center mb-[51px]">
+        Clients Testimonial
+      </div>
+      <div class="grid grid-cols-2 gap-[30px] mb-8">
+        <div class="text-center">
+          <div class="bg-[white] shadow-lg rounded-[10px] p-[32px] mb-[24px]">
+            <h2 class="mb-2">Incredible Experience</h2>
+            <p>
+              We had an incredible experience working with Landify and were
+              impressed they made such a big difference in only three weeks. Our
+              team is so grateful for the wonderful improvements they made and
+              their ability to get familiar with the concept so quickly.
+            </p>
           </div>
-          <p class="text-[22px] font-playfair font-bold mt-4">
-            Enviromental Law
-          </p>
-          <p class="text-[14px] font-plus-jakarta text-[#8B8C8C]  mt-4">
-            Environmental legal issues might occur since the planned business activities are designed
-          </p>
-        </div>
-        <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 mt-8">
-          <div>
-            <img src="img/svg/Rocket.svg" class="w-37 h-37">
+          <div class="flex items-center justify-center">
+            <img src="./img/Photo.png" alt="Anya Tailor Joy" class="mr-4" />
+            <div>
+              <div class="name">Anya Tailor Joy</div>
+              <div class="position">CEO, SF Industries</div>
+            </div>
           </div>
-          <p class="text-[22px] font-playfair font-bold mt-4">
-            Information and Technology
-          </p>
-          <p class="text-[14px] font-plus-jakarta text-[#8B8C8C]  mt-4">
-            IT not followed by the existing regulation which might cause legal uncertainty and business uncertainty.
-          </p>
         </div>
-      </div>
 
-      <div>
-        <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6">
-          <div>
-            <img src="img/svg/Bag.svg" class="w-37 h-37">
+        <div class="text-center">
+          <div class="bg-[white] rounded-[10px] p-[32px] shadow-lg mb-[24px]">
+            <h2 class="mb-2">Dependable, Responsive, Professional Partner</h2>
+            <p>
+              Fermin Apps has collaborated with Landify team for several
+              projects such as Photo Sharing Apps and Custom Social Networking
+              Apps. The experience has been pleasant, professional and exceeding
+              our expectations.
+            </p>
           </div>
-          <p class="text-[22px] font-playfair font-bold mt-4">
-            Corporate and Commercial
-          </p>
-          <p class="text-[14px] font-plus-jakarta text-[#8B8C8C]  mt-4">
-            We provide a complete range of services for the continuity of your business activities.
-          </p>
-        </div>
-        <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 mt-8">
-          <div>
-            <img src="img/svg/User%20Arrows.svg" class="w-37 h-37">
+          <div class="flex items-center justify-center">
+            <img src="./img/Photo.png" alt="Sri Alam" />
+            <div>
+              <div class="name">Sri Alam</div>
+              <div class="position">CEO, Membagongkan GROUP</div>
+            </div>
           </div>
-          <p class="text-[22px] font-playfair font-bold mt-4">
-            Other Services
-          </p>
-          <p class="text-[14px] font-plus-jakarta text-[#8B8C8C]  mt-4">
-            In dealing with disruptive economic and legal challenge, our firm also provide various legal services.
-          </p>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="bg-blue">
-  <div class="playfair-display-bold">Some count that matters</div>
-  <div class="achievement-text">Our achievement in the journey depicted in numbers</div>
-  <div class="stats-container">
-    <div class="stat-item">
-      <div class="stat-number">30</div>
-      <div class="stat-label">Clients</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">300+</div>
-      <div class="stat-label">Taken business legalities</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">8</div>
-      <div class="stat-label">Years of Journey</div>
-    </div>
-  </div>
-</div>
-
-<div class="testimonial-container">
-  <div class="testimonial-heading">Clients Testimonial</div>
-  <div class="testimonial">
-    <div class="testimonial-card">
-      <h2>Incredible Experience</h2>
-      <p>We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly.</p>
-    </div>
-    <div class="testimonial-card">
-      <h2>Dependable, Responsive, Professional Partner</h2>
-      <p>Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations.</p>
-    </div>
-  </div>
-  <div class="author-container">
-    <div class="author">
-      <img src="./img/Photo.png" alt="Anya Tailor Joy">
-      <div class="name">Anya Tailor Joy</div>
-      <div class="position">CEO, SF Industries</div>
-    </div>
-    <div class="author">
-      <img src="./img/Photo.png" alt="Sri Alam">
-      <div class="name">Sri Alam</div>
-      <div class="position">CEO, Membagongkan GROUP</div>
-    </div>
-  </div>
-</div>
-
-
-<!--module5-->
-<div class="grid grid-rows-2 grid-flow-col">
-  <div class="row-span-3 mr-[31] ml-[165px]">
-    <div class="my-[36.72px]">
-      <div class="my-[14.85px]">
-        <p class="text-[48px] font-playfair font-serif">Complex Question?</p>
+    <!--module5-->
+    <div class="grid grid-rows-2 grid-flow-col">
+      <div class="row-span-3 mr-[31] ml-[165px]">
+        <div class="my-[36.72px]">
+          <div class="my-[15px] text-[48px]">Complex Question?</div>
+          <p class="text-[24px] text-left font-poppins">
+            Request for a personalized budget for your legal problem. We will
+            send you a coupe options in 24 hours. You can have free consult , if
+            a our first customer
+          </p>
+          <div class="w-[219px] h-[64px]">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-6 rounded w-[219px] h-[64px] text-[22px]"
+            >
+              <i class="fa-solid fa-phone mr-[17.44px]"></i>Call now
+            </button>
+          </div>
+        </div>
       </div>
-      <div class=" mr-80 ">
-        <p class=" text-[24px] text-left font-poppins">Request for a personalized budget for your legal problem. We will
-          send you a coupe options in 24 hours. You can have free consult , if a our first customer</p>
-      </div>
-      <div class="w-[219px] h-[64px]">
-        <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-6 rounded w-[219px] h-[64px] text-[22px]">
-          <i class="fa-solid fa-phone mr-[17.44px]"></i>Call now
-        </button>
+      <div class="row-span-3 col-span-2">
+        <div class="my-[41px] mr-[92.6px]">
+          <img src="../images/picture 1.png" class="rounded-bl-[40px]" />
+        </div>
       </div>
     </div>
-  </div>
-  <div class="row-span-3 col-span-2">
-    <div class="my-[41px] mr-[92.6px] ">
-      <img src="../images/picture 1.png" class="rounded-bl-[40px]">
-    </div>
-  </div>
-</div>
-</div>
 
-
-
-<!--footer-->
-<div class="footer">
-  <div class="foot1">
-    <div class="foot1_logo">
-      <div class="L1">
-        L
+    <!--footer-->
+    <div class="text-[white]">
+      <div class="bg-[#094B72] px-[165px] flex justify-between py-[100px]">
+        <div class="flex items-center">
+          <div
+            class="bg-[white] text-[#094B72] text-xl px-[16px] py-[7px] mr-[13px] rounded-full font-bold"
+          >
+            L
+          </div>
+          <div class="font-bold text-xl">Lawliet</div>
+        </div>
+        <div class="flex gap-[100px]">
+          <div>
+            <div class="font-medium text-[20px] mb-8">Product</div>
+            <ul class="flex flex-col gap-3">
+              <li>Overview</li>
+              <li>Features</li>
+              <li>Tutorials</li>
+              <li>Pricing</li>
+              <li>Releases</li>
+            </ul>
+          </div>
+          <div>
+            <div class="font-medium text-[20px] mb-8">Company</div>
+            <ul class="flex flex-col gap-3">
+              <li>About</li>
+              <li>Press</li>
+              <li>Careers</li>
+              <li>Contact</li>
+              <li>Partners</li>
+            </ul>
+          </div>
+          <div>
+            <div class="font-medium text-[20px] mb-8">Support</div>
+            <ul class="flex flex-col gap-3">
+              <li>Help Center</li>
+              <li>Terms of service</li>
+              <li>Legal</li>
+              <li>Privacy Policy</li>
+              <li>Status</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="namelogo1">
-        Lawliet
+      <div
+        class="bg-[#004D7B] px-[165px] flex justify-between items-center h-[70px]"
+      >
+        <div class="text-sm">© 2021 Lawliet. All rights reserved</div>
+        <div>
+          <ul class="flex gap-4">
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-facebook-messenger"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="foot1_menu">
-      <div class="foot_menu1">
-        <div>Product</div>
-        <ul>
-          <li>Overview</li>
-          <li>Features</li>
-          <li>Tutorials</li>
-          <li>Pricing</li>
-          <li>Releases</li>
-        </ul>
-      </div>
-      <div class="foot_menu2">
-        <div>Company</div>
-        <ul>
-          <li>About</li>
-          <li>Press</li>
-          <li>Careers</li>
-          <li>Contact</li>
-          <li>Partners</li>
-        </ul>
-      </div>
-      <div class="foot_menu3">
-        <div>Support</div>
-        <ul>
-          <li>Help Center</li>
-          <li>Terms of service</li>
-          <li>Legal</li>
-          <li>Privacy Policy</li>
-          <li>Status</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="foot2">
-    <div class="foot2_last1">
-      © 2021 Lawliet. All rights reserved
-    </div>
-    <div class="foot2_contact">
-      <ul style="color: white; ">
-        <li><i class="fa-brands fa-instagram"></i></li>
-        <li><i class="fa-brands fa-facebook-messenger"></i></li>
-        <li><i class="fa-brands fa-twitter"></i></li>
-        <li><i class="fa-brands fa-youtube"></i></li>
-      </ul>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-</body>
+  </body>
 </html>
