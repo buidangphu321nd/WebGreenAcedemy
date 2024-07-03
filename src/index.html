@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <!--header-->
@@ -24,14 +25,14 @@
         <div class="font-bold text-xl">Lawliet</div>
       </div>
       <div class="flex items-center">
-        <ul class="flex gap-[56px] text-xs mr-[110px]">
-          <li>CONTACT</li>
-          <li>TESTIMONINALS</li>
-          <li>ABOUT</li>
-          <li>TERMS</li>
+        <ul class="flex gap-[56px] text-xs mr-[110px] cursor-pointer">
+          <li class="nav-item">CONTACT</li>
+          <li class="nav-item">TESTIMONINALS</li>
+          <li class="nav-item">ABOUT</li>
+          <li class="nav-item">TERMS</li>
         </ul>
         <div>
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
         </div>
       </div>
     </div>
@@ -76,9 +77,27 @@
         </div>
       </div>
     </div>
-    <img src="./img/Hero Image.svg" class="absolute right-[140px] top-[50px]" />
+
+    <img
+      src="./img/Hero Image.svg"
+      class="slider-image absolute right-[100px] top-[70px]"
+    />
+
+    <button
+      id="prevBtn"
+      class="absolute top-2/3 bg-[#f6f0f0] rounded-full py-3 px-5 ml-20"
+    >
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button
+      id="nextBtn"
+      class="absolute right-0 top-2/3 bg-[#f6f0f0] rounded-full py-3 px-5 mr-20"
+    >
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
     <div
-      class="absolute right-[350px] bottom-[-300px] bg-[white] text-[black] py-5 px-[124px] shadow-lg flex flex-col items-center rounded-[10px]"
+      class="absolute right-[300px] bottom-[-330px] bg-[white] text-[black] py-5 px-[124px] shadow-lg flex flex-col items-center rounded-[10px]"
     >
       <div class="text-[#33475B] font-bold mb-[2px] font-jakarta text-[24px]">
         Tiara Andini
@@ -100,7 +119,7 @@
         <div class="grid grid-cols-2 grid-rows-2 gap-8">
           <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
             <div>
-              <img src="img/svg/Circle%20Layer.svg" class="w-37 h-37" />
+              <img src="./img/Circle%20Layer.svg" class="w-37 h-37" />
             </div>
             <p class="text-[22px] font-playfair font-bold mt-4">
               Enviromental Law
@@ -112,7 +131,7 @@
           </div>
           <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
             <div>
-              <img src="img/svg/Rocket.svg" class="w-37 h-37" />
+              <img src="./img/Rocket.svg" class="w-37 h-37" />
             </div>
             <p class="text-[22px] font-playfair font-bold mt-4">
               Information and Technology
@@ -124,7 +143,7 @@
           </div>
           <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
             <div>
-              <img src="img/svg/Bag.svg" class="w-37 h-37" />
+              <img src="./img/Bag.svg" class="w-37 h-37" />
             </div>
             <p class="text-[22px] font-playfair font-bold mt-4">
               Corporate and Commercial
@@ -136,7 +155,7 @@
           </div>
           <div class="bg-[#fff] w-[256px] h-[256px] rounded-lg p-6 shadow-lg">
             <div>
-              <img src="img/svg/User%20Arrows.svg" class="w-37 h-37" />
+              <img src="./img/User%20Arrows.svg" class="w-37 h-37" />
             </div>
             <p class="text-[22px] font-playfair font-bold mt-4">
               Other Services
@@ -169,8 +188,8 @@
           class="flex flex-col items-center px-[15px] border-l border-r w-[255px]"
         >
           <div class="flex">
-            <div class="font-extrabold text-[48px] " id="business-count">0</div>
-            <div class="font-extrabold text-[48px] ">+</div>
+            <div class="font-extrabold text-[48px]" id="business-count">0</div>
+            <div class="font-extrabold text-[48px]">+</div>
           </div>
 
           <div class="">Taken business legalities</div>
@@ -252,7 +271,7 @@
       </div>
       <div class="row-span-3 col-span-2">
         <div class="my-[41px] mr-[92.6px]">
-          <img src="../images/picture 1.png" class="rounded-bl-[40px]" />
+          <img src="./img/picture 1.png" class="rounded-bl-[40px]" />
         </div>
       </div>
     </div>
@@ -315,6 +334,9 @@
         </div>
       </div>
     </div>
+
     <script src="./js/countAnimation.js"></script>
+    <script src="./js/activeMenu.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
